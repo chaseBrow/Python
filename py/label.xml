@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DieCutLabel Version="8.0" Units="twips">
+  <PaperOrientation>Landscape</PaperOrientation>
+  <Id>NameBadgeCard</Id>
+  <PaperName>30856 Badge Card Label - offset</PaperName>
+  <DrawCommands>
+    <Path>
+      <FillMode>EvenOdd</FillMode>
+      <Line X1="3509" Y1="0" X2="3509" Y2="6000"/>
+      <LineTo X="517" Y="6000"/>
+      <Arc CenterX="432" CenterY="6000" Radius="85" StartAngle="0" EndAngle="90"/>
+      <LineTo X="0" Y="5915"/>
+      <LineTo X="0" Y="85"/>
+      <LineTo X="432" Y="85"/>
+      <Arc CenterX="432" CenterY="0" Radius="85" StartAngle="-90" EndAngle="0"/>
+      <LineTo X="3509" Y="0"/>
+      <RoundRectangle X="2969" Y="2640" Width="180" Height="720" Rx="120" Ry="120"/>
+    </Path>
+  </DrawCommands>
+  <ObjectInfo>
+    <TextObject>
+      <Name>Top Text</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName></LinkedObjectName>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <HorizontalAlignment>Center</HorizontalAlignment>
+      <VerticalAlignment>Middle</VerticalAlignment>
+      <TextFitMode>ShrinkToFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String>VAR_NAME</String>
+          <Attributes>
+            <Font Family="Arial" Size="22" Bold="True" Italic="False" Underline="False" Strikeout="False"/>
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="450" Y="391.1811" Width="5338" Height="833.3859"/>
+  </ObjectInfo>
+  <ObjectInfo>
+    <ShapeObject>
+      <Name>Shape</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName></LinkedObjectName>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <ShapeType>HorizontalLine</ShapeType>
+      <LineWidth>15</LineWidth>
+      <LineAlignment>Center</LineAlignment>
+      <FillColor Alpha="0" Red="255" Green="255" Blue="255"/>
+    </ShapeObject>
+    <Bounds X="450" Y="1198.6" Width="5265" Height="15"/>
+  </ObjectInfo>
+  <ObjectInfo>
+    <TextObject>
+      <Name>Bottom Text</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName></LinkedObjectName>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>True</IsVariable>
+      <HorizontalAlignment>Center</HorizontalAlignment>
+      <VerticalAlignment>Top</VerticalAlignment>
+      <TextFitMode>ShrinkToFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String>VAR_COMPANY</String>
+          <Attributes>
+            <Font Family="Arial" Size="14" Bold="False" Italic="False" Underline="False" Strikeout="False"/>
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="450" Y="1380.25" Width="5312.126" Height="427.1598"/>
+  </ObjectInfo>
+  <ObjectInfo>
+    <TextObject>
+      <Name>TEXT</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255"/>
+      <LinkedObjectName></LinkedObjectName>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <HorizontalAlignment>Center</HorizontalAlignment>
+      <VerticalAlignment>Middle</VerticalAlignment>
+      <TextFitMode>ShrinkToFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String>VAR_ACCESS</String>
+          <Attributes>
+            <Font Family="Helvetica" Size="64" Bold="True" Italic="False" Underline="False" Strikeout="False"/>
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="685.3906" Y="1842.422" Width="4808.672" Height="1481.484"/>
+  </ObjectInfo>
+</DieCutLabel>
