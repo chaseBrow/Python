@@ -1,0 +1,33 @@
+cbrown54@student05:~/esc-courses/fa20-cse-20289.01/dropbox/m2c$ uptime
+01:10:03 up 4 days, 15:03, 12 users,  load average: 0.15, 0.11, 0.24
+
+machine: student05
+
+Case 1)
+    Threads:
+            1)  aabbb  is the password in:  0.8249220848083496
+            2)  aabbb  is the password in:  0.8872120380401611
+            4)  aabbb  is the password in:  0.7566099166870117
+
+Case 2)
+    Threads:
+            1)  cmc  is the password in:  1.9565563201904297
+            2)  cmc  is the password in:  1.990842342376709
+            4)  cmc  is the password in:  2.0816526412963867
+
+Case 3)
+    Threads:
+            1)  RedCastle  is the password in:  134.04272031784058
+            2)  RedCastle  is the password in:  138.88370871543884
+            4)  RedCastle  is the password in:  147.4105429649353
+
+**NOTE**
+Originally I was working on student06 and I noticed a large difference between 1 and 4 threads.
+
+cbrown54@student06:~/esc-courses/fa20-cse-20289.01/dropbox/m2c$ uptime
+01:05:25 up 32 days, 14:40, 31 users,  load average: 2.42, 3.39, 3.59
+
+After switching to student05 I noticed almost no difference in performance between 1 and 4 threads.
+I know you said to expect this, I was just shocked to find out how much of a difference there could be.
+I am sure there are tons of background processes left running on the 06 machine having been left
+up for 32 days.  Crazy to see the difference here.
